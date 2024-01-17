@@ -29,7 +29,7 @@ public class HomeController : Controller
         string assemblyDirectoryName = Path.GetDirectoryName(assemblyPath);
 
 
-        var filePath = Path.Combine(assemblyDirectoryName, @"Files\My Big File.pdf");
+        var filePath = Path.Combine(assemblyDirectoryName, "Files", "My Big File.pdf");
 
         // Replace "your_file_name.ext" with the desired file name
         var fileName = "My Big File.pdf";
